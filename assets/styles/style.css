@@ -1,0 +1,17 @@
+.buy-btn-container {
+    width: 100%;
+    padding-bottom: 33px;
+    display: flex;
+    justify-content: center;
+}
+
+.buy-btn {
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #2A3342;
+    color:  #F6F5FB;
+    display: none;
+}
