@@ -15,3 +15,52 @@
     color:  #F6F5FB;
     display: none;
 }
+
+#blur-container {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position : absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #D9D9D9B2;
+}
+
+#modal-contact {
+    width: 44%;
+    max-height: 530px;
+    padding: 6em 4em;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+#modal-contact h2 {
+    padding-bottom: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#modal-contact p {
+    width: 50%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#modal-contact #zip {
+    padding-bottom: 65px;
+}
+
+#modal-contact button {
+    padding: 14px 18px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #F6F5FB;
+    background-color: #2A3342;
+}
