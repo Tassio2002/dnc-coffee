@@ -8,7 +8,6 @@ const closeBtn = document.querySelector("#close")
 
 let idx = 0;
 
-// TODO: add event listeners
 function showBuyButton(index) {
   buyButton[index].style.display = "block";
 }
